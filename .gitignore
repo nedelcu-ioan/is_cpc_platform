@@ -18,42 +18,42 @@ fe/.env.development.local
 fe/.env.test.local
 fe/.env.production.local
 
-./fe/npm-debug.log*
-./fe/yarn-debug.log*
-./fe/yarn-error.log*
+fe/npm-debug.log*
+fe/yarn-debug.log*
+fe/yarn-error.log*
 
 
-./be/HELP.md
-./be/target/
-!./be/.mvn/wrapper/maven-wrapper.jar
-!./be/**/src/main/**/target/
-!./be/**/src/test/**/target/
+be/HELP.md
+be/target/
+!be/.mvn/wrapper/maven-wrapper.jar
+!be/**/src/main/**/target/
+!be/**/src/test/**/target/
 
 ### STS ###
-./be/.apt_generated
-./be/.classpath
-./be/.factorypath
-./be/.project
-./be/.settings
-./be/.springBeans
-./be/.sts4-cache
+be/.apt_generated
+be/.classpath
+be/.factorypath
+be/.project
+be/.settings
+be/.springBeans
+be/.sts4-cache
 
 ### IntelliJ IDEA ###
-./be/.idea
-./be/*.iws
-./be/*.iml
-./be/*.ipr
+be/.idea
+be/*.iws
+be/*.iml
+be/*.ipr
 
 ### NetBeans ###
-./be/nbproject/private/
-./be/nbbuild/
-./be/dist/
-./be/nbdist/
-./be/.nb-gradle/
-./be/build/
-!./be/**/src/main/**/build/
-!./be/**/src/test/**/build/
+be/nbproject/private/
+be/nbbuild/
+be/dist/
+be/nbdist/
+be/.nb-gradle/
+be/build/
+!be/**/src/main/**/build/
+!be/**/src/test/**/build/
 
 ### VS Code ###
-./be/.vscode/
+be/.vscode/
 
