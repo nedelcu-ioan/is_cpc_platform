@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  react:
+    image: is_cpc_react:0.0.1
+    networks:
+      is_cpc_net:
+        ipv4_address: 172.40.0.10
+
+  be:
+    image: is_cpc_be:0.0.1
+    depends_on:
+      - db
+    networks:
+      is_cpc_net:
+        ipv4_address: 172.40.0.11
+
+  db:
+    image: is_cpc_db:0.0.1
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    user: postgres
+    restart: always
+    networks:
+      is_cpc_net:
+        ipv4_address: 172.40.0.12
+       
+networks:
+  is_cpc_net:
+    external: true

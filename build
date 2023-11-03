@@ -1,0 +1,14 @@
+#!/usr/bin/env bash 
+
+cd fe
+./build
+cd - 
+
+cd be
+./build
+cd -
+
+cd db
+./build 
+cd - 
+

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash 
 ./mvnw clean install -DskipTests
-docker build -f ./dockerfile.dev -t project_1-auth .
+docker build -f ./dockerfile.dev -t is_cpc_be:0.0.1 .
 
