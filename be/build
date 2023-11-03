@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+./mvnw clean install -DskipTests
+docker build -f ./dockerfile.dev -t project_1-auth .
+
